@@ -19,10 +19,10 @@ const { fontFamily: bodyFont } = loadNunito("normal", {
   subsets: ["latin"],
 });
 
-const CountUp: React.FC<{ target: number; suffix?: string; frame: number; fps: number; delay: number }> = ({
-  target, suffix = "", frame, fps, delay,
+const CountUp: React.FC<{ target: number; suffix?: string; frame: number; fps: number; delay: number; skip?: boolean }> = ({
+  target, suffix = "", frame, fps, delay, skip = false,
 }) => {
-  const progress = spring({ frame, fps, config: { damping: 80, mass: 0.6 }, delay });
+  const progress = skip ? 1 : spring({ frame, fps, config: { damping: 80, mass: 0.6 }, delay });
   return <>{Math.round(target * progress)}{suffix}</>;
 };
 
@@ -55,14 +55,15 @@ const PaperRain: React.FC<{ frame: number }> = ({ frame }) => {
   return <>{shapes}</>;
 };
 
-export const Scene1Problem: React.FC = () => {
+export const Scene1Problem: React.FC<{ skipAnimations?: boolean }> = ({ skipAnimations = false }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
-  const heroSpring = spring({ frame, fps, config: { damping: 200 }, delay: 5 });
-  const supportSpring = spring({ frame, fps, config: { damping: 200 }, delay: 20 });
-  const secondStatSpring = spring({ frame, fps, config: { damping: 200 }, delay: 35 });
-  const deadlineSpring = spring({ frame, fps, config: { damping: 200 }, delay: 50 });
+  const s = skipAnimations;
+  const heroSpring = s ? 1 : spring({ frame, fps, config: { damping: 200 }, delay: 5 });
+  const supportSpring = s ? 1 : spring({ frame, fps, config: { damping: 200 }, delay: 20 });
+  const secondStatSpring = s ? 1 : spring({ frame, fps, config: { damping: 200 }, delay: 35 });
+  const deadlineSpring = s ? 1 : spring({ frame, fps, config: { damping: 200 }, delay: 50 });
   const deadlinePulse = interpolate(frame % 90, [0, 45, 90], [0.7, 1, 0.7]);
 
   return (
@@ -101,7 +102,7 @@ export const Scene1Problem: React.FC = () => {
               marginBottom: 16,
             }}
           >
-            <CountUp target={99} suffix="%" frame={frame} fps={fps} delay={8} />
+            <CountUp target={99} suffix="%" frame={frame} fps={fps} delay={8} skip={s} />
           </div>
           <div
             style={{
@@ -149,7 +150,7 @@ export const Scene1Problem: React.FC = () => {
             }}
           >
             <div style={{ fontFamily: headlineFont, fontSize: 56, fontWeight: 700, color: "#ee4723" }}>
-              <CountUp target={72} suffix="%" frame={frame} fps={fps} delay={38} />
+              <CountUp target={72} suffix="%" frame={frame} fps={fps} delay={38} skip={s} />
             </div>
             <div style={{ fontFamily: bodyFont, fontSize: 28, color: "rgba(255,255,255,0.6)", marginTop: 6 }}>
               of logistics companies still dispatch

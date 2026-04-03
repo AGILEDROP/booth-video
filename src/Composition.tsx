@@ -20,19 +20,6 @@ import { Scene10Team } from "./components/Scene10Team";
 
 const T = TRANSITION_DURATION;
 
-const SCENE_COMPONENTS = [
-  Scene1Problem,
-  Scene2Solution,
-  Scene3AI,
-  Scene4Deadlines,
-  Scene5AIUseCases,
-  Scene6RefCustoms,
-  Scene7RefToll,
-  Scene8RefCargo,
-  Scene9Platform,
-  Scene10Team,
-];
-
 export const ArpSoftwareDemo: React.FC = () => {
   return (
     <AbsoluteFill style={{ background: "#032633" }}>
@@ -47,19 +34,91 @@ export const ArpSoftwareDemo: React.FC = () => {
         }}
       >
         <TransitionSeries>
-          {SCENE_COMPONENTS.map((SceneComponent, i) => (
-            <React.Fragment key={i}>
-              {i > 0 && (
-                <TransitionSeries.Transition
-                  presentation={fade()}
-                  timing={linearTiming({ durationInFrames: T })}
-                />
-              )}
-              <TransitionSeries.Sequence durationInFrames={SCENES[i].duration}>
-                <SceneComponent />
-              </TransitionSeries.Sequence>
-            </React.Fragment>
-          ))}
+          {/* Scene 1: starts fully visible (no entrance animations) */}
+          <TransitionSeries.Sequence durationInFrames={SCENES[0].duration}>
+            <Scene1Problem skipAnimations />
+          </TransitionSeries.Sequence>
+
+          <TransitionSeries.Transition
+            presentation={fade()}
+            timing={linearTiming({ durationInFrames: T })}
+          />
+          <TransitionSeries.Sequence durationInFrames={SCENES[1].duration}>
+            <Scene2Solution />
+          </TransitionSeries.Sequence>
+
+          <TransitionSeries.Transition
+            presentation={fade()}
+            timing={linearTiming({ durationInFrames: T })}
+          />
+          <TransitionSeries.Sequence durationInFrames={SCENES[2].duration}>
+            <Scene3AI />
+          </TransitionSeries.Sequence>
+
+          <TransitionSeries.Transition
+            presentation={fade()}
+            timing={linearTiming({ durationInFrames: T })}
+          />
+          <TransitionSeries.Sequence durationInFrames={SCENES[3].duration}>
+            <Scene4Deadlines />
+          </TransitionSeries.Sequence>
+
+          <TransitionSeries.Transition
+            presentation={fade()}
+            timing={linearTiming({ durationInFrames: T })}
+          />
+          <TransitionSeries.Sequence durationInFrames={SCENES[4].duration}>
+            <Scene5AIUseCases />
+          </TransitionSeries.Sequence>
+
+          <TransitionSeries.Transition
+            presentation={fade()}
+            timing={linearTiming({ durationInFrames: T })}
+          />
+          <TransitionSeries.Sequence durationInFrames={SCENES[5].duration}>
+            <Scene6RefCustoms />
+          </TransitionSeries.Sequence>
+
+          <TransitionSeries.Transition
+            presentation={fade()}
+            timing={linearTiming({ durationInFrames: T })}
+          />
+          <TransitionSeries.Sequence durationInFrames={SCENES[6].duration}>
+            <Scene7RefToll />
+          </TransitionSeries.Sequence>
+
+          <TransitionSeries.Transition
+            presentation={fade()}
+            timing={linearTiming({ durationInFrames: T })}
+          />
+          <TransitionSeries.Sequence durationInFrames={SCENES[7].duration}>
+            <Scene8RefCargo />
+          </TransitionSeries.Sequence>
+
+          <TransitionSeries.Transition
+            presentation={fade()}
+            timing={linearTiming({ durationInFrames: T })}
+          />
+          <TransitionSeries.Sequence durationInFrames={SCENES[8].duration}>
+            <Scene9Platform />
+          </TransitionSeries.Sequence>
+
+          <TransitionSeries.Transition
+            presentation={fade()}
+            timing={linearTiming({ durationInFrames: T })}
+          />
+          <TransitionSeries.Sequence durationInFrames={SCENES[9].duration}>
+            <Scene10Team />
+          </TransitionSeries.Sequence>
+
+          {/* Loop: fade back to Scene 1 fully rendered (matches first frame) */}
+          <TransitionSeries.Transition
+            presentation={fade()}
+            timing={linearTiming({ durationInFrames: T })}
+          />
+          <TransitionSeries.Sequence durationInFrames={60}>
+            <Scene1Problem skipAnimations />
+          </TransitionSeries.Sequence>
         </TransitionSeries>
       </div>
 

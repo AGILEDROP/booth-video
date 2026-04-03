@@ -25,5 +25,7 @@ export function getSceneStarts(): number[] {
 export function getTotalDuration(): number {
   const total = SCENES.reduce((sum, s) => sum + s.duration, 0);
   const overlap = (SCENES.length - 1) * TRANSITION_DURATION;
-  return total - overlap;
+  // +60 for the loop-back Scene1 segment, -T for its transition overlap
+  const loopSegment = 60;
+  return total - overlap + loopSegment - TRANSITION_DURATION;
 }
