@@ -1,54 +1,70 @@
-# Remotion video
+# arp.software — Booth Video
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+Looping video for TV screen at booth, built with [Remotion](https://www.remotion.dev/).
 
-Welcome to your Remotion project!
+**Format:** 1920x1080, 30fps, ~3.2 minutes per loop
+**Scenes:** 10 scenes with crossfade transitions
 
-## Commands
+## Scenes
 
-**Install Dependencies**
+| # | Title | Content |
+|---|-------|---------|
+| 1 | The problem | 99% paper documents, EU deadline July 2027 |
+| 2 | What we build | Integration middleware, eFTI platforms, custom modules |
+| 3 | AI that actually works | Document processing, event detection, system bridging |
+| 4 | Regulatory wave | Three deadlines: Jul 2026, Jul 2027, Jan 2028 |
+| 5 | AI use cases | 6 concrete AI applications with metrics |
+| 6 | Customs declaration platform | Reference: Ireland/UK government customs |
+| 7 | 24toll | Reference: Real-time toll processing, Netherlands |
+| 8 | Cargo platform transformation | Reference: CertiFlow, Luxembourg government |
+| 9 | The platform | arp.software architecture and ownership model |
+| 10 | The team | Stats, client logos, team photo |
 
-```console
-npm i
-```
+## Getting started
 
-**Start Preview**
+```bash
+# Install dependencies
+npm install
 
-```console
+# Start the Remotion Studio (dev server with live preview)
 npm run dev
+
+# Open http://localhost:3000 in your browser
 ```
 
-**Render video**
+## Rendering
 
-```console
-npx remotion render
+```bash
+# Render the full video as MP4
+npx remotion render ArpSoftwareDemo out/video.mp4
+
+# Render a still frame (e.g. frame 550 = end of Scene 1)
+npx remotion still ArpSoftwareDemo --frame=550 --output=stills/scene1.png
 ```
 
-**Upgrade Remotion**
+## Project structure
 
-```console
-npx remotion upgrade
+```
+src/
+  Root.tsx              # Remotion entry point, composition config
+  Composition.tsx       # Main composition, wires up all 10 scenes
+  sceneConfig.ts        # Scene durations and timing
+  components/
+    PersistentBar.tsx    # Bottom bar with progress tracker
+    BrowserFrame.tsx     # Reusable tilted browser mockup wrapper
+    AgiledropNoiseBg.tsx # Noise gradient background
+    Scene1Problem.tsx    # Scene components (1-10)
+    Scene2Solution.tsx
+    ...
+public/
+  logos/                 # Client logos (SVG/PNG)
+  *.jpg                  # Team photos
+  *.png                  # Screenshots
 ```
 
-## Docs
+## Tech stack
 
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+- [Remotion](https://www.remotion.dev/) 4.x
+- React 19
+- TypeScript
+- Google Fonts (Montserrat + Nunito)
