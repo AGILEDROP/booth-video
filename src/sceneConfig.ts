@@ -1,16 +1,16 @@
 export const TRANSITION_DURATION = 25;
 
 export const SCENES = [
-  { label: "Problem", duration: 420 },      // 14s — 4 stats, quick read
-  { label: "Solution", duration: 540 },     // 18s — 3 staggered columns
-  { label: "AI", duration: 480 },           // 16s — concise use cases + mock
-  { label: "Deadlines", duration: 420 },    // 14s — simple timeline
-  { label: "AI use cases", duration: 540 }, // 18s — 6 cards to absorb
-  { label: "Reference", duration: 480 },    // 16s — customs ref
-  { label: "Reference", duration: 480 },    // 16s — toll ref
-  { label: "Reference", duration: 480 },    // 16s — cargo ref
-  { label: "Platform", duration: 600 },     // 20s — complex architecture
-  { label: "Team", duration: 540 },         // 18s — count-up animations
+  { label: "Problem", duration: 336 },      // 11.2s
+  { label: "Solution", duration: 432 },     // 14.4s
+  { label: "AI", duration: 384 },           // 12.8s
+  { label: "Deadlines", duration: 336 },    // 11.2s
+  { label: "AI use cases", duration: 432 }, // 14.4s
+  { label: "Reference", duration: 384 },    // 12.8s
+  { label: "Reference", duration: 384 },    // 12.8s
+  { label: "Reference", duration: 384 },    // 12.8s
+  { label: "Platform", duration: 480 },     // 16s
+  { label: "Team", duration: 432 },         // 14.4s
 ] as const;
 
 /** Compute cumulative start frame for each scene (accounting for transition overlap) */
