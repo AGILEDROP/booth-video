@@ -93,7 +93,7 @@ export const Scene9Platform: React.FC = () => {
           }}
         >
           <h2 style={{ fontFamily: headlineFont, fontSize: 60, fontWeight: 800, color: "#fff", margin: 0 }}>
-            The <span style={{ color: "#ee4723" }}>platform</span>
+            The <span style={{ color: "#ee4723" }}>ARP</span> platform
           </h2>
         </div>
 

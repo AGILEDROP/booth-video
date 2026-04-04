@@ -205,7 +205,7 @@ export const Scene7RefToll: React.FC = () => {
               style={{
                 width: "100%",
                 height: "100%",
-                transform: "rotateY(-6deg) rotateX(2deg)",
+                transform: `rotateY(-${6 + Math.sin(frame * 0.02) * 0.8}deg) rotateX(2deg) translateY(${Math.sin(frame * 0.025) * 3}px)`,
                 borderRadius: 12,
                 overflow: "hidden",
                 boxShadow: "0 20px 60px rgba(0,0,0,0.25)",
@@ -238,13 +238,13 @@ export const Scene7RefToll: React.FC = () => {
               width: "65%",
               perspective: 1200,
               opacity: desktopSpring,
-              transform: `translateY(${interpolate(desktopSpring, [0, 1], [20, 0])}px)`,
+              transform: `translateY(${interpolate(desktopSpring, [0, 1], [20, 0]) + Math.sin(frame * 0.02 + 1) * 3}px)`,
               zIndex: 2,
             }}
           >
             <div
               style={{
-                transform: "rotateY(-4deg) rotateX(3deg)",
+                transform: `rotateY(-4deg) rotateX(3deg)`,
                 borderRadius: 10,
                 overflow: "hidden",
                 boxShadow: "0 16px 48px rgba(0,0,0,0.3)",
@@ -267,7 +267,7 @@ export const Scene7RefToll: React.FC = () => {
               width: "22%",
               perspective: 1200,
               opacity: mobileSpring,
-              transform: `translateY(${interpolate(mobileSpring, [0, 1], [20, 0])}px)`,
+              transform: `translateY(${interpolate(mobileSpring, [0, 1], [20, 0]) + Math.sin(frame * 0.03 + 2) * 4}px)`,
               zIndex: 3,
             }}
           >

@@ -68,7 +68,8 @@ export const Scene10Team: React.FC = () => {
           width: "100%",
           height: "100%",
           objectFit: "cover",
-          transform: "scaleX(-1)",
+          transform: `scaleX(-1) scale(${1.08 + frame * 0.0002})`,
+          transformOrigin: "center center",
         }}
       />
       <div

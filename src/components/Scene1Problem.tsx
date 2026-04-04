@@ -89,7 +89,8 @@ export const Scene1Problem: React.FC<{ skipAnimations?: boolean }> = ({ skipAnim
             display: "flex",
             flexDirection: "column",
             opacity: heroSpring,
-            transform: `translateY(${interpolate(heroSpring, [0, 1], [30, 0])}px)`,
+            transform: `translateY(${interpolate(heroSpring, [0, 1], [30, 0])}px) scale(${1 + frame * 0.00008})`,
+            transformOrigin: "left center",
           }}
         >
           <div

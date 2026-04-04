@@ -84,15 +84,13 @@ export const PersistentBar: React.FC = () => {
           <span
             style={{
               fontFamily: bodyFont,
-              fontSize: 20,
-              fontWeight: 600,
-              color: "rgba(255,255,255,0.65)",
+              fontSize: 26,
+              fontWeight: 700,
+              color: "rgba(255,255,255,0.75)",
               lineHeight: 1.3,
             }}
           >
-            Custom logistics software
-            <br />
-            you own
+            Your logistics. Your software.
           </span>
         </div>
 

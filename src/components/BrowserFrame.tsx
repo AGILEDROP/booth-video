@@ -1,9 +1,9 @@
 import React from "react";
+import { useCurrentFrame } from "remotion";
 
 /**
  * Browser chrome wrapper — renders children inside a macOS-style browser window
- * with 3D perspective tilt. The frame is decorative so viewers see it as an image,
- * not something to read.
+ * with 3D perspective tilt and subtle floating animation.
  */
 export const BrowserFrame: React.FC<{
   children: React.ReactNode;
@@ -22,6 +22,10 @@ export const BrowserFrame: React.FC<{
   accentColor = "#ee4723",
   headerBg = "#032633",
 }) => {
+  const frame = useCurrentFrame();
+  // Subtle floating: gentle Y oscillation + slight tilt change
+  const floatY = Math.sin(frame * 0.03) * 4;
+  const floatTilt = tiltDeg + Math.sin(frame * 0.02) * 0.8;
   return (
     <div
       style={{
@@ -37,7 +41,7 @@ export const BrowserFrame: React.FC<{
         style={{
           width: "95%",
           height: "95%",
-          transform: `rotateY(-${tiltDeg}deg) rotateX(2deg)`,
+          transform: `rotateY(-${floatTilt}deg) rotateX(2deg) translateY(${floatY}px)`,
           transformStyle: "preserve-3d",
           borderRadius: 16,
           overflow: "hidden",
