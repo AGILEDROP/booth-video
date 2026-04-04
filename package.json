@@ -7,10 +7,12 @@
   "private": true,
   "dependencies": {
     "@remotion/animation-utils": "4.0.443",
+    "@remotion/captions": "4.0.443",
     "@remotion/cli": "4.0.443",
     "@remotion/elevenlabs": "4.0.443",
     "@remotion/google-fonts": "4.0.443",
     "@remotion/lottie": "4.0.443",
+    "@remotion/media": "4.0.443",
     "@remotion/motion-blur": "4.0.443",
     "@remotion/noise": "4.0.443",
     "@remotion/paths": "4.0.443",

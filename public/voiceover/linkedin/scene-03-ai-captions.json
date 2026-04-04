@@ -1,0 +1,205 @@
+[
+  {
+    "text": "Our",
+    "startMs": 0,
+    "endMs": 197,
+    "timestampMs": 0,
+    "confidence": 1
+  },
+  {
+    "text": " AI",
+    "startMs": 267,
+    "endMs": 546,
+    "timestampMs": 267,
+    "confidence": 1
+  },
+  {
+    "text": " agents",
+    "startMs": 604,
+    "endMs": 975,
+    "timestampMs": 604,
+    "confidence": 1
+  },
+  {
+    "text": " process",
+    "startMs": 1033,
+    "endMs": 1486,
+    "timestampMs": 1033,
+    "confidence": 1
+  },
+  {
+    "text": " shipping",
+    "startMs": 1521,
+    "endMs": 1834,
+    "timestampMs": 1521,
+    "confidence": 1
+  },
+  {
+    "text": " documents",
+    "startMs": 1892,
+    "endMs": 2403,
+    "timestampMs": 1892,
+    "confidence": 1
+  },
+  {
+    "text": " with",
+    "startMs": 2577,
+    "endMs": 2752,
+    "timestampMs": 2577,
+    "confidence": 1
+  },
+  {
+    "text": " over",
+    "startMs": 2798,
+    "endMs": 2949,
+    "timestampMs": 2798,
+    "confidence": 1
+  },
+  {
+    "text": " ninety-nine",
+    "startMs": 3019,
+    "endMs": 3529,
+    "timestampMs": 3019,
+    "confidence": 1
+  },
+  {
+    "text": " percent",
+    "startMs": 3564,
+    "endMs": 3889,
+    "timestampMs": 3564,
+    "confidence": 1
+  },
+  {
+    "text": " accuracy,",
+    "startMs": 3947,
+    "endMs": 4748,
+    "timestampMs": 3947,
+    "confidence": 1
+  },
+  {
+    "text": " detect",
+    "startMs": 5190,
+    "endMs": 5561,
+    "timestampMs": 5190,
+    "confidence": 1
+  },
+  {
+    "text": " events",
+    "startMs": 5619,
+    "endMs": 5933,
+    "timestampMs": 5619,
+    "confidence": 1
+  },
+  {
+    "text": " in",
+    "startMs": 5979,
+    "endMs": 6049,
+    "timestampMs": 5979,
+    "confidence": 1
+  },
+  {
+    "text": " real",
+    "startMs": 6118,
+    "endMs": 6327,
+    "timestampMs": 6118,
+    "confidence": 1
+  },
+  {
+    "text": " time,",
+    "startMs": 6385,
+    "endMs": 6827,
+    "timestampMs": 6385,
+    "confidence": 1
+  },
+  {
+    "text": " and",
+    "startMs": 6978,
+    "endMs": 7117,
+    "timestampMs": 6978,
+    "confidence": 1
+  },
+  {
+    "text": " bridge",
+    "startMs": 7175,
+    "endMs": 7442,
+    "timestampMs": 7175,
+    "confidence": 1
+  },
+  {
+    "text": " legacy",
+    "startMs": 7488,
+    "endMs": 7860,
+    "timestampMs": 7488,
+    "confidence": 1
+  },
+  {
+    "text": " systems",
+    "startMs": 7918,
+    "endMs": 8359,
+    "timestampMs": 7918,
+    "confidence": 1
+  },
+  {
+    "text": " automatically.",
+    "startMs": 8406,
+    "endMs": 9311,
+    "timestampMs": 8406,
+    "confidence": 1
+  },
+  {
+    "text": " Every",
+    "startMs": 9822,
+    "endMs": 10112,
+    "timestampMs": 9822,
+    "confidence": 1
+  },
+  {
+    "text": " action",
+    "startMs": 10170,
+    "endMs": 10461,
+    "timestampMs": 10170,
+    "confidence": 1
+  },
+  {
+    "text": " is",
+    "startMs": 10507,
+    "endMs": 10577,
+    "timestampMs": 10507,
+    "confidence": 1
+  },
+  {
+    "text": " logged.",
+    "startMs": 10646,
+    "endMs": 11088,
+    "timestampMs": 10646,
+    "confidence": 1
+  },
+  {
+    "text": " Every",
+    "startMs": 11297,
+    "endMs": 11564,
+    "timestampMs": 11297,
+    "confidence": 1
+  },
+  {
+    "text": " decision",
+    "startMs": 11622,
+    "endMs": 12016,
+    "timestampMs": 11622,
+    "confidence": 1
+  },
+  {
+    "text": " is",
+    "startMs": 12074,
+    "endMs": 12144,
+    "timestampMs": 12074,
+    "confidence": 1
+  },
+  {
+    "text": " reviewable.",
+    "startMs": 12214,
+    "endMs": 13096,
+    "timestampMs": 12214,
+    "confidence": 1
+  }
+]

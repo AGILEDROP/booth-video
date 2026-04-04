@@ -1,0 +1,198 @@
+[
+  {
+    "text": "The",
+    "startMs": 0,
+    "endMs": 163,
+    "timestampMs": 0,
+    "confidence": 1
+  },
+  {
+    "text": " ARP",
+    "startMs": 244,
+    "endMs": 685,
+    "timestampMs": 244,
+    "confidence": 1
+  },
+  {
+    "text": " platform",
+    "startMs": 836,
+    "endMs": 1347,
+    "timestampMs": 836,
+    "confidence": 1
+  },
+  {
+    "text": " is",
+    "startMs": 1521,
+    "endMs": 1683,
+    "timestampMs": 1521,
+    "confidence": 1
+  },
+  {
+    "text": " a",
+    "startMs": 1730,
+    "endMs": 1753,
+    "timestampMs": 1730,
+    "confidence": 1
+  },
+  {
+    "text": " layered",
+    "startMs": 1823,
+    "endMs": 2148,
+    "timestampMs": 1823,
+    "confidence": 1
+  },
+  {
+    "text": " architecture",
+    "startMs": 2206,
+    "endMs": 2844,
+    "timestampMs": 2206,
+    "confidence": 1
+  },
+  {
+    "text": " you",
+    "startMs": 2891,
+    "endMs": 2972,
+    "timestampMs": 2891,
+    "confidence": 1
+  },
+  {
+    "text": " fully",
+    "startMs": 3053,
+    "endMs": 3320,
+    "timestampMs": 3053,
+    "confidence": 1
+  },
+  {
+    "text": " own.",
+    "startMs": 3390,
+    "endMs": 3831,
+    "timestampMs": 3390,
+    "confidence": 1
+  },
+  {
+    "text": " From",
+    "startMs": 4272,
+    "endMs": 4447,
+    "timestampMs": 4272,
+    "confidence": 1
+  },
+  {
+    "text": " custom",
+    "startMs": 4528,
+    "endMs": 4876,
+    "timestampMs": 4528,
+    "confidence": 1
+  },
+  {
+    "text": " business",
+    "startMs": 4946,
+    "endMs": 5283,
+    "timestampMs": 4946,
+    "confidence": 1
+  },
+  {
+    "text": " logic",
+    "startMs": 5341,
+    "endMs": 5677,
+    "timestampMs": 5341,
+    "confidence": 1
+  },
+  {
+    "text": " and",
+    "startMs": 5747,
+    "endMs": 5863,
+    "timestampMs": 5747,
+    "confidence": 1
+  },
+  {
+    "text": " AI",
+    "startMs": 5944,
+    "endMs": 6304,
+    "timestampMs": 5944,
+    "confidence": 1
+  },
+  {
+    "text": " tools",
+    "startMs": 6362,
+    "endMs": 6687,
+    "timestampMs": 6362,
+    "confidence": 1
+  },
+  {
+    "text": " down",
+    "startMs": 6745,
+    "endMs": 6978,
+    "timestampMs": 6745,
+    "confidence": 1
+  },
+  {
+    "text": " to",
+    "startMs": 7024,
+    "endMs": 7094,
+    "timestampMs": 7024,
+    "confidence": 1
+  },
+  {
+    "text": " open-source",
+    "startMs": 7175,
+    "endMs": 7802,
+    "timestampMs": 7175,
+    "confidence": 1
+  },
+  {
+    "text": " foundations",
+    "startMs": 7837,
+    "endMs": 8545,
+    "timestampMs": 7837,
+    "confidence": 1
+  },
+  {
+    "text": " —",
+    "startMs": 8661,
+    "endMs": 8731,
+    "timestampMs": 8661,
+    "confidence": 1
+  },
+  {
+    "text": " deployed",
+    "startMs": 9056,
+    "endMs": 9485,
+    "timestampMs": 9056,
+    "confidence": 1
+  },
+  {
+    "text": " on",
+    "startMs": 9520,
+    "endMs": 9590,
+    "timestampMs": 9520,
+    "confidence": 1
+  },
+  {
+    "text": " your",
+    "startMs": 9636,
+    "endMs": 9776,
+    "timestampMs": 9636,
+    "confidence": 1
+  },
+  {
+    "text": " cloud",
+    "startMs": 9834,
+    "endMs": 10194,
+    "timestampMs": 9834,
+    "confidence": 1
+  },
+  {
+    "text": " or",
+    "startMs": 10263,
+    "endMs": 10391,
+    "timestampMs": 10263,
+    "confidence": 1
+  },
+  {
+    "text": " on-premise.",
+    "startMs": 10461,
+    "endMs": 11424,
+    "timestampMs": 10461,
+    "confidence": 1
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "text": "We",
+    "startMs": 0,
+    "endMs": 186,
+    "timestampMs": 0,
+    "confidence": 1
+  },
+  {
+    "text": " build",
+    "startMs": 244,
+    "endMs": 499,
+    "timestampMs": 244,
+    "confidence": 1
+  },
+  {
+    "text": " the",
+    "startMs": 546,
+    "endMs": 615,
+    "timestampMs": 546,
+    "confidence": 1
+  },
+  {
+    "text": " software",
+    "startMs": 662,
+    "endMs": 1138,
+    "timestampMs": 662,
+    "confidence": 1
+  },
+  {
+    "text": " that",
+    "startMs": 1173,
+    "endMs": 1277,
+    "timestampMs": 1173,
+    "confidence": 1
+  },
+  {
+    "text": " makes",
+    "startMs": 1324,
+    "endMs": 1533,
+    "timestampMs": 1324,
+    "confidence": 1
+  },
+  {
+    "text": " it",
+    "startMs": 1579,
+    "endMs": 1649,
+    "timestampMs": 1579,
+    "confidence": 1
+  },
+  {
+    "text": " happen.",
+    "startMs": 1695,
+    "endMs": 2241,
+    "timestampMs": 1695,
+    "confidence": 1
+  },
+  {
+    "text": " Integration",
+    "startMs": 2752,
+    "endMs": 3413,
+    "timestampMs": 2752,
+    "confidence": 1
+  },
+  {
+    "text": " middleware",
+    "startMs": 3495,
+    "endMs": 3959,
+    "timestampMs": 3495,
+    "confidence": 1
+  },
+  {
+    "text": " connecting",
+    "startMs": 4005,
+    "endMs": 4447,
+    "timestampMs": 4005,
+    "confidence": 1
+  },
+  {
+    "text": " legacy",
+    "startMs": 4528,
+    "endMs": 4923,
+    "timestampMs": 4528,
+    "confidence": 1
+  },
+  {
+    "text": " systems.",
+    "startMs": 4981,
+    "endMs": 5689,
+    "timestampMs": 4981,
+    "confidence": 1
+  },
+  {
+    "text": " Electronic",
+    "startMs": 6130,
+    "endMs": 6699,
+    "timestampMs": 6130,
+    "confidence": 1
+  },
+  {
+    "text": " freight",
+    "startMs": 6780,
+    "endMs": 7024,
+    "timestampMs": 6780,
+    "confidence": 1
+  },
+  {
+    "text": " document",
+    "startMs": 7070,
+    "endMs": 7477,
+    "timestampMs": 7070,
+    "confidence": 1
+  },
+  {
+    "text": " platforms",
+    "startMs": 7512,
+    "endMs": 8034.000000000001,
+    "timestampMs": 7512,
+    "confidence": 1
+  },
+  {
+    "text": " replacing",
+    "startMs": 8103.999999999999,
+    "endMs": 8568,
+    "timestampMs": 8103.999999999999,
+    "confidence": 1
+  },
+  {
+    "text": " paper.",
+    "startMs": 8638,
+    "endMs": 9207,
+    "timestampMs": 8638,
+    "confidence": 1
+  },
+  {
+    "text": " And",
+    "startMs": 9648,
+    "endMs": 9799,
+    "timestampMs": 9648,
+    "confidence": 1
+  },
+  {
+    "text": " custom",
+    "startMs": 9880,
+    "endMs": 10217,
+    "timestampMs": 9880,
+    "confidence": 1
+  },
+  {
+    "text": " logistics",
+    "startMs": 10298,
+    "endMs": 10809,
+    "timestampMs": 10298,
+    "confidence": 1
+  },
+  {
+    "text": " modules",
+    "startMs": 10855,
+    "endMs": 11343,
+    "timestampMs": 10855,
+    "confidence": 1
+  },
+  {
+    "text": " —",
+    "startMs": 11459,
+    "endMs": 11517,
+    "timestampMs": 11459,
+    "confidence": 1
+  },
+  {
+    "text": " all",
+    "startMs": 11552,
+    "endMs": 11773,
+    "timestampMs": 11552,
+    "confidence": 1
+  },
+  {
+    "text": " fully",
+    "startMs": 11831,
+    "endMs": 12074,
+    "timestampMs": 11831,
+    "confidence": 1
+  },
+  {
+    "text": " owned",
+    "startMs": 12144,
+    "endMs": 12399,
+    "timestampMs": 12144,
+    "confidence": 1
+  },
+  {
+    "text": " by",
+    "startMs": 12446,
+    "endMs": 12585,
+    "timestampMs": 12446,
+    "confidence": 1
+  },
+  {
+    "text": " you,",
+    "startMs": 12655,
+    "endMs": 12864,
+    "timestampMs": 12655,
+    "confidence": 1
+  },
+  {
+    "text": " with",
+    "startMs": 12887,
+    "endMs": 13038,
+    "timestampMs": 12887,
+    "confidence": 1
+  },
+  {
+    "text": " no",
+    "startMs": 13084,
+    "endMs": 13189,
+    "timestampMs": 13084,
+    "confidence": 1
+  },
+  {
+    "text": " vendor",
+    "startMs": 13270,
+    "endMs": 13549,
+    "timestampMs": 13270,
+    "confidence": 1
+  },
+  {
+    "text": " lock-in.",
+    "startMs": 13584,
+    "endMs": 14303,
+    "timestampMs": 13584,
+    "confidence": 1
+  }
+]
